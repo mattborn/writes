@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+# Web Designer & Mentor
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Hey, my name’s Matt and I live in Chicago with my wife Megan & daughter Maely. I started creating for the web 17 years ago and I never stopped. This site showcases both my work and the resources I am actively creating to help other designers & developers grow. Let’s grab a beer sometime. Cheers!
