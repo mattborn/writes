@@ -34,9 +34,11 @@ From our Jekyll project directory, `git init && git add . && git commit -m 'Inst
 
 You just deployed your site.
 
-In the background, GitHub is running the Jekyll build process to compile and serve your site. After about 10-30 seconds, your site should be available at `http://username.github.io/project-name`.
+In the background, GitHub is running the Jekyll build process to compile and serve your site. After 20 seconds, your site should be available at `http://username.github.io/project-name`.
 
-If you want to push to your `username.github.io` instead of a project page, the previous command should be `git init && git add . && git commit -m 'Install vanilla Jekyll' && git remote add origin PASTE_HERE && git push -u origin master`.
+If you want to push to your `username.github.io` instead of a project site, the previous command should be `git init && git add . && git commit -m 'Install vanilla Jekyll' && git remote add origin PASTE_HERE && git push -u origin master`.
+
+> Protip: I keep my blog in a separate project repo so I can manage and deploy this content independently of my home page and other microsites.
 
 ## Prose.io
 
@@ -56,26 +58,32 @@ You can follow this same workflow indefinitely to create new files and edit exis
 
 At this point, you may be wondering how to use something other than the default template or how to add commenting or analytics. I will write about these things as I get to them myself, but for now, I will recommend some good starting points:
 
-### Theming
-
-- [Jekyll Documentation](http://jekyllrb.com/docs/home)
-- [Jekyll From Scratch - Getting Started](http://pixelcog.com/blog/2013/jekyll-from-scratch-introduction)
-
-### Comments
-
-- [Jekyll Installation Instructions — help.disqus.com](https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions)
-- [Adding Disqus to your Jekyll](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages)
-
-### Analytics
+#### Analytics
 
 - [Improving the quality of Google Analytics data for Jekyll sites](http://veithen.github.io/2015/01/05/jekyll-improving-ga-data-quality.html)
 - [New Plugin Brings Google Analytics Data to Jekyll Sites](https://developmentseed.org/blog/google-analytics-jekyll-plugin)
 
+#### Comments
+
+- [Jekyll Installation Instructions — help.disqus.com](https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions)
+- [Adding Disqus to your Jekyll](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages)
+
+#### Theming
+
+- [Jekyll Documentation](http://jekyllrb.com/docs/home)
+- [Jekyll From Scratch - Getting Started](http://pixelcog.com/blog/2013/jekyll-from-scratch-introduction)
+
+> Protip: Write 10 posts, then share with 100 people you know and 1,000 people you don’t before worrying about what it looks like.
+
+As the real [Drew Wilson](http://drewwilson.com) would say, _Go Forth and Build_.
+
 ## References
 
+- [Using Jekyll with Pages — help.github.com](https://help.github.com/articles/using-jekyll-with-pages)
 - [Poole · The Jekyll Butler — Mark Otto (creator of Bootstrap)](http://getpoole.com)
 - [How I Created a Beautiful and Minimal Blog Using Jekyll, Github Pages, and poole](http://joshualande.com/jekyll-github-pages-poole)
 - [Incorporated — Kippt Inc.](http://incorporated.sendtoinc.com)
 - [Save 50 Hours Setting Up Your Jekyll Blog — Will Koehler](http://willkoehler.net/2014/08/26/save-50-hours-setting-up-your-jekyll-blog.html)
+- [Simple Category Pages with Vanilla Jekyll](http://primalivet.com/2013/11/simple-category-pages-with-vanilla-jekyll)
 - [github.com/jekyll/jekyll/wiki/Themes](https://github.com/jekyll/jekyll/wiki/Themes)
 - [Jekyll Themes — Michael Rose](https://mademistakes.com/work/jekyll-themes)
